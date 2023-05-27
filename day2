@@ -50,3 +50,7 @@ console.log(mul(10,3));
 console.log(div(10,3));
 console.log(mod(10,3));
 
+function printCapital(city, country) {
+    console.log(city+" is the capital of "+country);
+}
+printCapital("Sri Jayawardenepura Kotte","Sri Lanka");
