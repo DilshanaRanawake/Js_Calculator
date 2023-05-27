@@ -25,3 +25,28 @@ console.log((-1)*(-10)*(-20));
 console.log(2*(4+5*(6+3)));
 
 console.log(36/3+4*3);
+
+
+
+
+function add(a,b) {
+    return a+b;
+}
+function sub(a,b) {
+    return a-b;
+}
+function mul(a,b) {
+    return a*b;
+}
+function div(a,b) {
+    return a/b;
+}
+function mod(a,b) {
+    return a%b;
+}
+console.log(add(10,3));
+console.log(sub(10,3));
+console.log(mul(10,3));
+console.log(div(10,3));
+console.log(mod(10,3));
+
